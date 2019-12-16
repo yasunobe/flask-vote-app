@@ -135,7 +135,7 @@ if __name__ == '__main__':
     db.session.commit()
     hostname = socket.gethostname()
          
-    print "Check if a poll already exists into db"
+    print "Check if a poll already exists in the db"
     # TODO check the latest one filtered by timestamp
     poll = Poll.query.first()
     
